@@ -1,0 +1,4 @@
+1. Bob
+2. Rosie
+
+Press 0 to exit system and other keys to continue:

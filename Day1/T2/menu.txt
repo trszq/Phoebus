@@ -1,0 +1,5 @@
+-------Student browsing system----------
+1. class 1
+2. class 2
+0. exit
+Please select the class:
