@@ -1,8 +1,6 @@
 # Author: Zhang Qing
 import os
 
-
-
 f1=open('users.txt')
 f2=open('passwd.txt')
 username=[]
@@ -18,9 +16,6 @@ count=[0]*i
 f1.close()
 f2.close()
 
-#print(username)
-#print(password)
-#print(count)
 
 while 1:
     os.system('cls')
