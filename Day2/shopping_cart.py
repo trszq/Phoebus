@@ -24,7 +24,7 @@ while 1:
 #法一
 #goods.index(_good_info)
 #法二
-#for inxdex,item in enumerate(goods)
+#for index,item in enumerate(goods)
 #    print(index,item)
 #判断列表长度：len(goods)
 
