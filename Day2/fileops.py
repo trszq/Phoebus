@@ -22,8 +22,6 @@ for good_item in fgoods2.readlines():
     goods2.append(good_item)
 print(goods2[0][0])
 fgoods2.close()
-'''
-
 
 user_info = {
     'Tom': [123,1400,[["iphone",7000],["keyboard",600],["book",80]]],
@@ -47,3 +45,18 @@ f2.close()
 print(info_user.get("Toam"))
 print(info_user["Tom"])
 
+
+
+#data = open("goodslist.txt").read()
+f = open("goodslist.txt")
+print(f.readline())
+print(f.tell())
+
+f.seek(14)
+print(f.tell())
+print(f.readline())
+'''
+
+f=open("binfile.txt",'wb')
+f.write("hello world!".encode())
+f.close()

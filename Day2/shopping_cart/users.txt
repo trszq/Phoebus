@@ -1,1 +1,1 @@
-{"zhangqing": {"record": [["iphone", "7000"], ["keyboard", "600"], ["book", "80"], ["iphone", "7000"], ["keyboard", "600"], ["book", "80"]], "password": "123", "money": 6862}, "mary": {"record": [["TV", "10000"], ["book", "80"], ["keyboard", "600"]], "password": "111", "money": 1653}, "tom": {"record": [["book", "80"]], "password": "222", "money": 43}}
+{"zq": {"record": [["iphone", "7000"], ["keyboard", "600"], ["TV", "10000"]], "password": "123", "money": 4622}}
