@@ -2,45 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af8bbebc-feef-4dd6-afae-b4a607eb107b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/M2/Day4/decorator.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day1/T1/login.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day1/T1/passwd.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day1/T1/users.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day1/T2/menu.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day1/T2/menu.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day1/T2/menu1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day1/T2/menu2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day1/T2/menu_a.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day1/T2/menu_b.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day1/T2/menu_c.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day1/T2/menu_d.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day1/Variables.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day1/guess.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day1/interaction.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day1/passwd.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day2/binfile.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day2/dict.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day2/dict.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day2/dictionary.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day2/fileops.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day2/goodslist.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day2/goodslist.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day2/name.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day2/shopping_cart.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day2/shopping_cart/goodslist.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day2/shopping_cart/shopping_cart.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day2/shopping_cart/shopping_cart.rar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day2/shopping_cart/users.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day2/sys_mod.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day2/tuple.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day3/Higher_func.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day3/func1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day3/func_test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day3/progress_bar.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day3/recursion.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day3/set.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day3/variables.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/M2/Day4/decorator1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/M2/Day4/decorator2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/M2/Day4/decorator4.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/M2/Day4/decorator.py" afterPath="$PROJECT_DIR$/M2/Day4/decorator.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,8 +24,38 @@
       <file leaf-file-name="decorator.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/M2/Day4/decorator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="57">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decorator4.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/M2/Day4/decorator4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decorator1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/M2/Day4/decorator1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decorator2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/M2/Day4/decorator2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="9" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -105,15 +101,18 @@
         <option value="$PROJECT_DIR$/Day3/variables.py" />
         <option value="$PROJECT_DIR$/Day3/recursion.py" />
         <option value="$PROJECT_DIR$/Day3/Higher_func.py" />
+        <option value="$PROJECT_DIR$/M2/Day4/decorator2.py" />
+        <option value="$PROJECT_DIR$/M2/Day4/decorator1.py" />
+        <option value="$PROJECT_DIR$/M2/Day4/decorator4.py" />
         <option value="$PROJECT_DIR$/M2/Day4/decorator.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="299" />
-    <option name="y" value="27" />
+    <option name="x" value="535" />
+    <option name="y" value="15" />
     <option name="width" value="1315" />
-    <option name="height" value="923" />
+    <option name="height" value="948" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -134,6 +133,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -147,6 +147,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="M2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Day4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -166,11 +170,10 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -184,92 +187,83 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Higher_func">
-    <configuration default="false" name="func1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Phoebus" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day3/func1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in func_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for decorator.test1">
+    <configuration default="false" name="Unittests in decorator.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/M2/Day4" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Phoebus" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Day3/func_test.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/M2/Day4/decorator.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="variables" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="decorator1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/M2/Day4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Phoebus" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day3/variables.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/M2/Day4/decorator1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="recursion" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittests in decorator2.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day3" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/M2/Day4" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Phoebus" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day3/recursion.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/M2/Day4/decorator2.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="Higher_func" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittests for decorator.test1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day3" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/M2/Day4" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Phoebus" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day3/Higher_func.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;decorator.test1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in decorator4.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/M2/Day4" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Phoebus" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/M2/Day4/decorator4.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -337,24 +331,27 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.func1" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in func_test.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python.variables" />
-      <item index="3" class="java.lang.String" itemvalue="Python.recursion" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Higher_func" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in decorator.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python.decorator1" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in decorator2.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for decorator.test1" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in decorator4.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Higher_func" />
-        <item index="1" class="java.lang.String" itemvalue="Python.recursion" />
-        <item index="2" class="java.lang.String" itemvalue="Python.variables" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in func_test.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python.func1" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for decorator.test1" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in decorator4.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python.decorator1" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in decorator.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in decorator2.py" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -367,26 +364,26 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_func_test_py - 2017.07.15 at 20h 31m 08s.xml">
-      <configuration name="Unittests in func_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_decorator_test1 - 2017.08.13 at 16h 37m 55s.xml">
+      <configuration name="Unittests for decorator.test1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_func_test_py - 2017.07.15 at 20h 35m 03s.xml">
-      <configuration name="Unittests in func_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_decorator_test1 - 2017.08.13 at 16h 38m 22s.xml">
+      <configuration name="Unittests for decorator.test1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_func_test_py - 2017.07.15 at 20h 43m 28s.xml">
-      <configuration name="Unittests in func_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_decorator_test1 - 2017.08.13 at 20h 11m 36s.xml">
+      <configuration name="Unittests for decorator.test1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_func_test_py - 2017.07.15 at 20h 43m 36s.xml">
-      <configuration name="Unittests in func_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_decorator_test1 - 2017.08.13 at 20h 12m 22s.xml">
+      <configuration name="Unittests for decorator.test1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_func_test_py - 2017.07.15 at 20h 44m 04s.xml">
-      <configuration name="Unittests in func_test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_decorator4_py - 2017.08.13 at 20h 09m 23s.xml">
+      <configuration name="Unittests in decorator4.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_func_test_py - 2017.07.15 at 20h 44m 11s.xml">
-      <configuration name="Unittests in func_test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_decorator_py - 2017.08.12 at 16h 49m 01s.xml">
+      <configuration name="Unittests in decorator.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_func_test_py - 2017.07.15 at 20h 44m 55s.xml">
-      <configuration name="Unittests in func_test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_decorator_py - 2017.08.12 at 16h 49m 57s.xml">
+      <configuration name="Unittests in decorator.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_func_test_py - 2017.07.15 at 20h 45m 14s.xml">
       <configuration name="Unittests in func_test.py" configurationId="tests" />
@@ -408,14 +405,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="299" y="27" width="1315" height="923" extended-state="0" />
+    <frame x="535" y="15" width="1315" height="948" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20717132" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21673307" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45032257" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939634" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3786531" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24961479" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -482,14 +479,11 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day1/T1/login.py" />
-    <entry file="file://$PROJECT_DIR$/Day2/sys_mod.py" />
-    <entry file="file://$PROJECT_DIR$/Day2/name.py" />
     <entry file="file://$PROJECT_DIR$/Day1/guess.py" />
     <entry file="file://$PROJECT_DIR$/Day1/T2/menu.py" />
     <entry file="file://$PROJECT_DIR$/Day1/T1/login.py" />
@@ -558,14 +552,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M2/Day4/decorator2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="9" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M2/Day4/decorator1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M2/Day4/decorator4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/M2/Day4/decorator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
