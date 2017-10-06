@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af8bbebc-feef-4dd6-afae-b4a607eb107b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/M2/Day5/datetime_test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/M2/Day5/module_test/module_zq.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/M2/Day5/random_test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/M2/Day5/time_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/M2/Day5/configparser-gen.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/M2/Day5/configparser-modify.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/M2/Day5/configparser-read.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/M2/Day5/example.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/M2/Day5/i.cfg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/M2/Day5/os_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/M2/Day5/shelve_test.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/M2/Day5/shelve_test.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/M2/Day5/shelve_test.dir" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/M2/Day5/shelve_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/M2/Day5/shutil_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/M2/Day5/xml_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/M2/Day5/xmltest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/M2/Day5/random_test.py" afterPath="$PROJECT_DIR$/M2/Day5/random_test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,105 +30,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="shopping_cart.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/M1/Day2/shopping_cart/shopping_cart.py">
+      <file leaf-file-name="configparser-gen.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/M2/Day5/configparser-gen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="119" column="6" lean-forward="false" selection-start-line="119" selection-start-column="6" selection-end-line="119" selection-end-column="6" />
-              <folding>
-                <element signature="e#22#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inbuild.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/M2/Day4/inbuild.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="228">
+              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="json&amp;pickle序列化.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/M2/Day4/json&amp;pickle序列化.py">
+      <file leaf-file-name="example.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/M2/Day5/example.ini">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="atm.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/M2/Day4/ATM/bin/atm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="e#22#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module_zq.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/M2/Day5/module_test/module_zq.py">
+      <file leaf-file-name="configparser-read.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/M2/Day5/configparser-read.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="time_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/M2/Day5/time_test.py">
+      <file leaf-file-name="i.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/M2/Day5/i.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+            <state relative-caret-position="133">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="datetime_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/M2/Day5/datetime_test.py">
+      <file leaf-file-name="configparser-modify.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/M2/Day5/configparser-modify.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="random_test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/M2/Day5/random_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/M2/Day4/ATM/conf/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/M2/Day4/ATM/core/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+            <state relative-caret-position="38">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="32" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -182,12 +138,22 @@
         <option value="$PROJECT_DIR$/M2/Day5/time_test.py" />
         <option value="$PROJECT_DIR$/M2/Day5/datetime_test.py" />
         <option value="$PROJECT_DIR$/M2/Day5/random_test.py" />
+        <option value="$PROJECT_DIR$/M2/Day5/os_test.py" />
+        <option value="$PROJECT_DIR$/M2/Day5/shutil_test.py" />
+        <option value="$PROJECT_DIR$/M2/Day5/shelve.py" />
+        <option value="$PROJECT_DIR$/M2/Day5/shelve_test.py" />
+        <option value="$PROJECT_DIR$/M2/Day5/xmltest.xml" />
+        <option value="$PROJECT_DIR$/M2/Day5/xml_test.py" />
+        <option value="$PROJECT_DIR$/M2/Day5/configparser-gen.py" />
+        <option value="$PROJECT_DIR$/M2/Day5/configparser-read.py" />
+        <option value="$PROJECT_DIR$/M2/Day5/i.cfg" />
+        <option value="$PROJECT_DIR$/M2/Day5/configparser-modify.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="335" />
-    <option name="y" value="89" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1315" />
     <option name="height" value="844" />
   </component>
@@ -209,6 +175,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,11 +186,6 @@
             <path>
               <item name="Phoebus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Phoebus" type="462c0819:PsiDirectoryNode" />
-              <item name="M1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Phoebus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Phoebus" type="462c0819:PsiDirectoryNode" />
               <item name="M2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -231,20 +193,12 @@
               <item name="Phoebus" type="462c0819:PsiDirectoryNode" />
               <item name="M2" type="462c0819:PsiDirectoryNode" />
               <item name="Day5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Phoebus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Phoebus" type="462c0819:PsiDirectoryNode" />
-              <item name="M2" type="462c0819:PsiDirectoryNode" />
-              <item name="Day5" type="462c0819:PsiDirectoryNode" />
-              <item name="module_test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.datetime_test">
+  <component name="RunManager" selected="Python.configparser-modify">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -327,24 +281,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration name="atm" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/M2/Day4/ATM/bin" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Phoebus" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/M2/Day4/ATM/bin/atm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="datetime_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="configparser-gen" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -356,46 +293,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Phoebus" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/M2/Day5/datetime_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/M2/Day5/configparser-gen.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="inbuild" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/M2/Day4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Phoebus" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/M2/Day4/inbuild.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="json&amp;pickle序列化" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/M2/Day4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Phoebus" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/M2/Day4/json&amp;pickle序列化.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="time_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="configparser-modify" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -407,25 +310,76 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Phoebus" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/M2/Day5/time_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/M2/Day5/configparser-modify.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="configparser-read" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/M2/Day5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Phoebus" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/M2/Day5/configparser-read.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="shelve_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/M2/Day5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Phoebus" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/M2/Day5/shelve_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="xml_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/M2/Day5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Phoebus" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/M2/Day5/xml_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.inbuild" />
-      <item index="1" class="java.lang.String" itemvalue="Python.json&amp;pickle序列化" />
-      <item index="2" class="java.lang.String" itemvalue="Python.atm" />
-      <item index="3" class="java.lang.String" itemvalue="Python.time_test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.datetime_test" />
+      <item index="0" class="java.lang.String" itemvalue="Python.shelve_test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.xml_test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.configparser-gen" />
+      <item index="3" class="java.lang.String" itemvalue="Python.configparser-read" />
+      <item index="4" class="java.lang.String" itemvalue="Python.configparser-modify" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.datetime_test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.time_test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.atm" />
-        <item index="3" class="java.lang.String" itemvalue="Python.json&amp;pickle序列化" />
-        <item index="4" class="java.lang.String" itemvalue="Python.inbuild" />
+        <item index="0" class="java.lang.String" itemvalue="Python.configparser-modify" />
+        <item index="1" class="java.lang.String" itemvalue="Python.configparser-read" />
+        <item index="2" class="java.lang.String" itemvalue="Python.configparser-gen" />
+        <item index="3" class="java.lang.String" itemvalue="Python.xml_test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.shelve_test" />
       </list>
     </recent_temporary>
   </component>
@@ -487,15 +441,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="335" y="89" width="1315" height="844" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27410358" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19296375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37774524" sideWeight="0.50278884" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32796487" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34699854" sideWeight="0.49721116" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34189945" sideWeight="0.49721116" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24961479" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -696,39 +650,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Program Files/Python36/Lib/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="1014" column="18" lean-forward="false" selection-start-line="1014" selection-start-column="14" selection-end-line="1014" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day2/directory.py" />
-    <entry file="file://$PROJECT_DIR$/Day1/guess.py" />
-    <entry file="file://$PROJECT_DIR$/Day1/T2/menu.txt" />
-    <entry file="file://$PROJECT_DIR$/Day1/T2/menu1.txt" />
-    <entry file="file://$PROJECT_DIR$/Day1/T2/menu2.txt" />
-    <entry file="file://$PROJECT_DIR$/Day2/name.py" />
-    <entry file="file://$PROJECT_DIR$/Day2/tuple.py" />
-    <entry file="file://$PROJECT_DIR$/Day2/sys_mod.py" />
-    <entry file="file://$PROJECT_DIR$/Day1/T1/login.py" />
-    <entry file="file://$USER_HOME$/Desktop/Day02/shopping_cart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4007">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day2/shopping_cart/shopping_cart.py" />
-    <entry file="file://$PROJECT_DIR$/Day2/shopping_cart.py" />
-    <entry file="file://$PROJECT_DIR$/Day2/dictionary.py" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/830134243/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="4377" column="50" lean-forward="false" selection-start-line="4377" selection-start-column="50" selection-end-line="4377" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day1/T2/menu.py" />
     <entry file="file://$PROJECT_DIR$/Day3/set.py" />
     <entry file="file://$PROJECT_DIR$/Day2/fileops.py" />
@@ -832,28 +753,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/M1/Day2/shopping_cart/shopping_cart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="119" column="6" lean-forward="false" selection-start-line="119" selection-start-column="6" selection-end-line="119" selection-end-column="6" />
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/M2/Day4/users.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/M2/Day4/inbuild.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,11 +767,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/M2/Day4/ATM/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M2/Day5/datetime_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M2/Day4/inbuild.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/M2/Day4/json&amp;pickle序列化.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M2/Day4/ATM/bin/atm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M2/Day5/time_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -876,7 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,24 +820,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M2/Day5/random_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M2/Day5/shelve.py" />
+    <entry file="file://$PROJECT_DIR$/M2/Day5/shelve_test.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M2/Day5/shelve_test.bak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M2/Day5/shelve_test.dir">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M1/Day2/shopping_cart/shopping_cart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="110" column="39" lean-forward="false" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/M2/Day4/ATM/bin/atm.py">
+    <entry file="file://$PROJECT_DIR$/M2/Day5/os_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/M2/Day4/ATM/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="114">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -914,26 +876,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/M2/Day5/time_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/M2/Day5/datetime_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/M2/Day5/random_test.py">
+    <entry file="file://$PROJECT_DIR$/M2/Day5/shutil_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M2/Day5/shelve_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="e#22#35#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M2/Day5/example.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M2/Day5/xml_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M2/Day5/xmltest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M2/Day5/configparser-gen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python36/Lib/configparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="804" column="8" lean-forward="false" selection-start-line="804" selection-start-column="8" selection-end-line="804" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M2/Day5/configparser-read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M2/Day5/i.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M2/Day5/configparser-modify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="32" selection-end-column="32" />
           <folding />
         </state>
       </provider>
