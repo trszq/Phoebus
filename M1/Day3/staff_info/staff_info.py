@@ -81,24 +81,26 @@ def _select(_request): #string
 
 
 
-def _update(_request): # string
+def _update(request): # string
     global staff_info
-    request = _request.split()
-    _attr = eval(request[3].upper())
-    value=request[5].strip("\"\'")
-
-    if " ".join(request[:3]).lower() != "update staff_table set" or \
-    request[4] != '=' or request[6].lower() != "where":
+    opt_req = " ".join(request.lower().split())
+    if not re.match("update staff_table set .* where .*", opt_req):
         input("\033[5;31mInvalid Syntax of update!!\033[0m\n(Press any key to continue...)")
         return
-    if request[3].upper() not in ATTR:
-        print("Could not find the attribute",request[3].upper())
+
+    req = request.split("where")
+    req1 = req[0].strip().split()
+    req2 = req[1].strip().split()
+    if req1[3].upper() not in ATTR:
+        print("Could not find the attribute",req1[3].upper())
         input("(Press any key to continue...)")
         return
+    _attr = eval(req1[3].upper())
+    value = " ".join(req1[5:]).strip("\"\'")
     if _attr == PHONE and not chk_phone_num(value):
         input("There is a duplicate phone number.\n(Press any key to continue...)")
         return
-    id_to_upt = _query(request[7:])
+    id_to_upt = _query(req2)
     for id in id_to_upt:
         staff_info[id][_attr]=value
     print("Affected",len(id_to_upt),"record(s)")
