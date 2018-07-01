@@ -2,13 +2,15 @@
 
 import os
 import re
+import copy
 
 NAME=0
 AGE=1
 PHONE=2
 DEPT=3
 ENROLL_DATE=4
-ATTR=["NAME","AGE","PHONE","DEPT","ENROLL_DATE"]
+ID=5
+ATTR=["ID","NAME","AGE","PHONE","DEPT","ENROLL_DATE"]
 SYMBOLS=["=",">","<",">=","<=","!=","<>","like"]
 
 with open("staff_info.txt","r") as f_info:
@@ -30,30 +32,63 @@ def _query(que):
     IDS=[]
     symbol=que[1].lower()
     if symbol not in SYMBOLS:
-        print("\033[5;31mInvalid comparison symbol!\033[0m")
+        print("\033[5;31mInvalid comparison symbol!:\033[0m",symbol)
         return IDS
     if que[0].upper() not in ATTR:
-        print("Could not find the attribute",que[0].upper())
+        print("Could not find the attribute:",que[0].upper())
         return IDS
+    value=" ".join(que[2:]).strip("\"\'")
+    if que[0].upper() == "ID":
+        if not value.isdigit():
+            print(value, "is not a number")
+            return IDS
+        else:
+            for id in staff_info:
+                if symbol == '=' and id == value:
+                    IDS.append(id)
+                elif symbol == 'like' and value in id:
+                    IDS.append(id)
+                elif (symbol == '<>' or symbol == '!=') and id != value:
+                    IDS.append(id)
+                elif symbol == '>' and int(id) > int(value):
+                    IDS.append(id)
+                elif symbol == '<' and int(id) < int(value):
+                    IDS.append(id)
+                elif symbol == '>=' and int(id) >= int(value):
+                    IDS.append(id)
+                elif symbol == '<=' and int(id) <= int(value):
+                    IDS.append(id)
+            return IDS
     else:
         _attr=eval(que[0].upper())
         for id in staff_info:
-            if symbol == '=' and staff_info[id][_attr] == " ".join(que[2:]).strip("\"\'"):
-                IDS.append(id)
-            elif symbol == '>' and int(staff_info[id][_attr]) > int(" ".join(que[2:]).strip("\"\'")):
-                IDS.append(id)
-            elif symbol == '<' and int(staff_info[id][_attr]) <= int(" ".join(que[2:]).strip("\"\'")):
-                IDS.append(id)
-            elif symbol == '>=' and int(staff_info[id][_attr]) >= int(" ".join(que[2:]).strip("\"\'")):
-                IDS.append(id)
-            elif symbol == '<=' and int(staff_info[id][_attr]) <= int(" ".join(que[2:]).strip("\"\'")):
-                IDS.append(id)
-            elif (symbol == '<>' or symbol == '!=') and staff_info[id][_attr] != " ".join(que[2:]).strip("\"\'"):
-                IDS.append(id)
-            elif symbol == 'like' and " ".join(que[2:]).strip("\"\'") in staff_info[id][_attr]:
-                IDS.append(id)
-            # elif eval(staff_info[id][_attr]+symbol+" ".join(que[2:]).strip("\"\'")):
-            #     IDS.append(id)
+            attr_val = staff_info[id][_attr]
+            if symbol == '=':
+                if attr_val == value:
+                    IDS.append(id)
+            elif symbol == 'like':
+                if value in attr_val:
+                    IDS.append(id)
+            elif symbol == '<>' or symbol == '!=':
+                if attr_val != value:
+                    IDS.append(id)
+            else:
+                if not value.isdigit():
+                    print(value,"is not a number")
+                    return IDS
+                if not attr_val.isdigit():
+                    continue
+                else:
+                    if symbol == '>' and int(attr_val) > int(value):
+                        IDS.append(id)
+                    elif symbol == '<' and int(attr_val) < int(value):
+                        IDS.append(id)
+                    elif symbol == '>=' and int(attr_val) >= int(value):
+                        IDS.append(id)
+                    elif symbol == '<=' and int(attr_val) <= int(value):
+                        IDS.append(id)
+                    # elif eval(attr_val+symbol+value):
+                    #     IDS.append(id)
         return IDS
 
 def _select(_request): #string
@@ -74,11 +109,11 @@ def _select(_request): #string
             return
     id_to_sel = _query(request[5:])
     for id in id_to_sel:
-        print(",".join(list(map(lambda x:staff_info[id][eval(x)],attrs))))
+        full_info = copy.deepcopy(staff_info[id])
+        full_info.append(id)
+        print(",".join(list(map(lambda x:full_info[eval(x)],attrs))))
     print("Found",len(id_to_sel),"record(s)")
     input("(Press any key to continue...)")
-
-
 
 
 def _update(request): # string
@@ -91,12 +126,19 @@ def _update(request): # string
     req = request.split("where")
     req1 = req[0].strip().split()
     req2 = req[1].strip().split()
-    if req1[3].upper() not in ATTR:
-        print("Could not find the attribute",req1[3].upper())
+    attr = req1[3].upper()
+    if attr not in ATTR:
+        print("Could not find the attribute",attr)
         input("(Press any key to continue...)")
         return
-    _attr = eval(req1[3].upper())
+    if attr == "ID":
+        input("ID could not be modified.\n(Press any key to continue...)")
+        return
+    _attr = eval(attr)
     value = " ".join(req1[5:]).strip("\"\'")
+    if attr == "AGE" and not value.isdigit():
+        input("Age must be a number.\n(Press any key to continue...)")
+        return
     if _attr == PHONE and not chk_phone_num(value):
         input("There is a duplicate phone number.\n(Press any key to continue...)")
         return
@@ -116,10 +158,13 @@ def _insert(request): # string
     else:
         values=_cmd_[1].split(",")
         values=list(map(lambda x:x.strip("\"\'"),values))
+        if not values[AGE].isdigit():
+            input("Age must be a number.\n(Press any key to continue...)")
+            return
         if chk_phone_num(values[PHONE]):
             MAX_ID+=1
             staff_info[str(MAX_ID)]=values
-            input("Staff information is recorded.\n(Press any key to continue...)")
+            input("Staff information is added.\n(Press any key to continue...)")
         else:
             input("There is a duplicate phone number.\n(Press any key to continue...)")
 
