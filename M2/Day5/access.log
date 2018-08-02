@@ -1,0 +1,9 @@
+2018-07-27 17:26:21,348 - TEST-LOG - WARNING - warn message
+2018-07-27 17:26:21,348 - TEST-LOG - ERROR - error message
+2018-07-27 17:26:21,348 - TEST-LOG - CRITICAL - critical message
+2018-07-27 17:49:35,766 - TEST-LOG - WARNING - warn message
+2018-07-27 17:49:35,766 - TEST-LOG - ERROR - error message
+2018-07-27 17:49:35,766 - TEST-LOG - CRITICAL - critical message
+2018-07-30 11:59:21,034 - TEST-LOG - WARNING - warn message
+2018-07-30 11:59:21,034 - TEST-LOG - ERROR - error message
+2018-07-30 11:59:21,034 - TEST-LOG - CRITICAL - critical message

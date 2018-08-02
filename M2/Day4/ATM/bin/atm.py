@@ -8,4 +8,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
 print(BASE_DIR)
 #导入模块
-import conf,core
+from core import main
+
+if __name__ == '__main__':
+    main.run()
