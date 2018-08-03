@@ -6,9 +6,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
 print(BASE_DIR)
 from core import auth
+from core import logger
+
+access_logger = logger.logger('access')
+transaction_logger = logger.logger('transaction')
 
 def account_info(acc_data):
-    print('account_info')
+    print(acc_data)
 
 def repay(acc_data):
     print('repay')
@@ -25,7 +29,8 @@ def pay_check(acc_data):
 def logout(acc_data):
     exit()
 
-def interactive(acc_data):
+@auth.auth
+def run(acc_data):
     menu = '''
     ------- ZQ's Bank ---------
     \033[32;1m1.  账户信息
