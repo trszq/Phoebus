@@ -1,3 +1,5 @@
+#!_*_coding:utf-8_*_
+
 import os
 import json
 import time
@@ -19,11 +21,14 @@ def auth(func):
                     acc_data = json.load(f)
                     if acc_data['password'] == password:
                         exp_time = time.mktime(time.strptime(acc_data['expire_date'], "%Y-%m-%d"))
-                        if time.time() < exp_time:
+                        if time.time() >= exp_time:  # 验证账户是否过期
+                            print("\033[31;1mAccount [%s] has expired,please contact the back to get a new card!\033[0m" % account)
+                        elif acc_data['status'] > 0: # 验证账户是否冻结
+                            print("\033[31;1mAccount [%s] is frozen.\033[0m" % account)
+                        else:
+                            access_logger.info("[%s] login successfully"%acc_data['id'])
                             print("Welcome,%s"%acc_data['id'])
                             func(acc_data,*args,**kwargs)
-                        else:
-                            print("\033[31;1mAccount [%s] has expired,please contact the back to get a new card!\033[0m" % account)
                     else:
                         print("\033[31;1mPassword is incorrect!\033[0m")
             else:

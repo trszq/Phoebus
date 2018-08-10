@@ -1,3 +1,4 @@
+#!_*_coding:utf-8_*_
 import logging
 from conf import settings
 

@@ -20,5 +20,6 @@ TRANSACTION_TYPE = {
     'repay':{'action':'plus', 'interest':0},
     'withdraw':{'action':'minus', 'interest':0.05},
     'transfer':{'action':'minus', 'interest':0.05},
+    'transfer_in':{'action':'plus', 'interest':0},
     'consume':{'action':'minus', 'interest':0},
 }
