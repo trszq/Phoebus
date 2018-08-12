@@ -1,0 +1,37 @@
+staff_info
+
+*1.可进行模糊查询，语法至少支持下面3种: 
+*支持id查询
+*　　select name,age from staff_table where age > 22
+*　　select  * from staff_table where dept = "IT"
+*select  * from staff_table where enroll_date like "2013"
+  0     1   2       3        4        5        6     7
+
+*查到的信息，打印后，最后面还要显示查到的条数
+
+*2.可创建新员工纪录 insert  
+*不支持id自定义
+*以phone做唯一键（不可重复）
+*staff_id需自增
+*INSERT INTO staff_table VALUES (Alex Li,22,13651054608,IT,2013-04-01)
+*age为数字
+
+*3.可删除指定员工信息纪录，
+*输入员工id，即可删除  
+*支持id查询删除
+
+*DELETE FROM staff_table WHERE NAME = 'Wilson' 
+
+*4.可修改员工信息，语法如下: 
+*phone不重复  
+*不可更改id  
+*age为数字
+
+　　*UPDATE staff_table SET dept = "Market" where dept = "IT"
+     0         1        2   3   4     5      6    7   8  9
+
+
+DELETE FROM staff_table WHERE enroll_date like "2017"
+
+注意 大小写、引号和空格
+
