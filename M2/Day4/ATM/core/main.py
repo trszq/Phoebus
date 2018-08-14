@@ -60,7 +60,7 @@ def transfer(acc_data):
         tran_acc_data = accounts.load_account(tran_id)
         if not tran_acc_data:
             return
-        tran_amount = input("\033[33;1mInput withdraw amount(Press b to cancel):\033[0m").strip()
+        tran_amount = input("\033[33;1mInput transfer amount(Press b to cancel):\033[0m").strip()
         if len(tran_amount) > 0 and tran_amount.isdigit():
             new_acc_data = transaction.make_transaction(transaction_logger, acc_data, 'transfer', tran_amount)
             if new_acc_data:
