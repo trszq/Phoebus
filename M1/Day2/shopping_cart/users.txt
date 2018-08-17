@@ -1,1 +1,1 @@
-{"zq": {"record": [["iphone", "7000"], ["keyboard", "600"], ["TV", "10000"]], "password": "123", "money": 4622}}
+{"zq": {"record": [["iphone", "7000"], ["keyboard", "600"], ["TV", "10000"], ["keyboard", "600"], ["book", "80"]], "password": "123", "money": 3942}}

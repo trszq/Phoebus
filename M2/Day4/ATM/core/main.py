@@ -3,6 +3,7 @@
 
 import os
 import sys
+import re
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
 print(BASE_DIR)
@@ -10,6 +11,7 @@ from core import auth
 from core import logger
 from core import transaction
 from core import accounts
+from conf import settings
 
 # access_logger = logger.logger('access')
 transaction_logger = logger.logger('transaction')
@@ -78,7 +80,12 @@ def transfer(acc_data):
 
 
 def pay_check(acc_data):
-    print('pay_check')
+    log_file = "%s/logs/%s" % (settings.BASE_DIR, settings.LOG_TYPES['consumption'])
+    with open(log_file,'r') as log_f:
+        for log in log_f.readlines():
+            log_match=re.match(".*account:%s.*"%acc_data['id'],log)
+            if log_match:
+                print(log_match.group())
 
 def logout(acc_data):
     exit()

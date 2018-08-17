@@ -28,7 +28,8 @@ def auth(func):
                         else:
                             access_logger.info("[%s] login successfully"%acc_data['id'])
                             print("Welcome,%s"%acc_data['id'])
-                            func(acc_data,*args,**kwargs)
+                            res = func(acc_data,*args,**kwargs)
+                            return res
                     else:
                         print("\033[31;1mPassword is incorrect!\033[0m")
             else:

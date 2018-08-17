@@ -1,0 +1,5 @@
+2018-08-17 15:12:33,321 - consumption - INFO - account:zq   goods:book   payed:80
+2018-08-17 17:31:13,197 - consumption - INFO - account:zq   goods:keyboard   payed:600
+2018-08-17 17:31:28,306 - consumption - INFO - account:zq   goods:iphone   payed:7000
+2018-08-17 17:35:34,693 - consumption - INFO - account:c   goods:keyboard   payed:600
+2018-08-17 17:36:08,345 - consumption - INFO - account:c   goods:TV   payed:10000
