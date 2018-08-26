@@ -9,22 +9,21 @@ def verify_exp(expression):
         print('This expression is invalid')
         return False
     else:
-        exp_params = re.split(r'[+\-*/]',expression) #不能有连续符号
+        # 不能有连续符号
+        exp_params = re.split(r'[+\-*/]',expression)
         for exp_param in exp_params:
             if not exp_param:
                 print('This expression is invalid')
                 return False
     return True
 
-def add_sub_cal(expression):  #加减运算
+#加减运算
+def add_sub_cal(expression):
+    # 负数的加减
     expression = re.sub('--','+',expression)
-    expression = re.sub(r'\+-', '-', expression)  #负数的加减
+    expression = re.sub(r'\+-', '-', expression)
     expression = re.sub('^-','0-',expression)
     params = re.split('[+-]',expression)
-    # for param in params:
-    #     if not param:
-    #         print('This expression is invalid')
-    #         return
     if params.__len__() == 1:
         return  params
     symbols = re.findall('[+-]',expression)
@@ -36,12 +35,9 @@ def add_sub_cal(expression):  #加减运算
             sum = sum - float(params[n+1])
     return str(sum)
 
-def mul_div_cal(expression):   #乘除运算
+#乘除运算
+def mul_div_cal(expression):
     params = re.split('[*/]',expression)
-    # for param in params:
-    #     if not param:
-    #         print('This expression is invalid')
-    #         return
     if params.__len__() == 1:
         return  params
     symbols = re.findall('[*/]',expression)
@@ -53,8 +49,10 @@ def mul_div_cal(expression):   #乘除运算
             sum = sum / float(params[n+1])
     return str(sum)
 
-def basic_cal(expression):  #基础四则运算，无括号优先
+#基础四则运算，无括号优先计算式
+def basic_cal(expression):
     while True:
+        # 取出乘除项，并兼容负数
         mul_div_parse = re.search(r'([\d.]*([*/]|\*-|/-)[\d.]+)+', expression)
         if not mul_div_parse:
             break
@@ -67,6 +65,7 @@ def basic_cal(expression):  #基础四则运算，无括号优先
 
 def calculate(expression):
     while True:
+        # 取出括号内计算式
         parse = re.search(r'\([^()]+\)', expression)
         if not parse:
             res = basic_cal(expression)
@@ -83,4 +82,4 @@ while True:
     if not verify_exp(expression):
         continue
     print(calculate(expression))
-    # print(basic_cal(expression))
+
