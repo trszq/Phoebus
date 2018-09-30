@@ -9,8 +9,9 @@ class Dog(object):
     def eat(self):
         print("%s is eating" %self.name)
     @eat.setter
-    def Eat(self,food):
+    def eat(self,food):
         print("Set to food:",food)
 
 d = Dog("ChenRonghua")
 d.eat
+d.eat = "shit"
