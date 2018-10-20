@@ -1,13 +1,12 @@
-dic = ["wupeiqi", 'alex']
-try:
-    dic[11]
-except IndexError as e:
-    print(e)
-
+# Author: Zhang Qing
+names=['zhangsan','lisi']
+data={}
 
 try:
-    raise Exception('错误了。。。')
-except Exception as e:
-    print(e)
+    names[3]
+    data['name']
 
-raise Exception('错误了。。。')
+except (KeyError,IndexError) as e:
+    print("There is no key:",e)
+# except IndexError as e:
+#     print(e)
