@@ -11,6 +11,7 @@ if __name__ == "__main__":
     1:管理员
     2:老师
     3:学生
+    4:退出
     '''
     # role_main={
     #     '0':initialize_service.main,
@@ -27,7 +28,9 @@ if __name__ == "__main__":
     while True:
         print(msg)
         choice=input('>>: ').strip()
-        if choice not in role_main:
+        if choice == '4':
+            exit()
+        elif choice not in role_main:
             input("请输入正确选项")
             continue
         input(role_main[choice])
