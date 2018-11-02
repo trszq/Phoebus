@@ -9,6 +9,9 @@ class Dog(object):
     def eat(self):
         print("%s is eating" %self.name)
 
+    def eat2(self):
+        print("%s is eating" %self.name)
 
 d = Dog("ChenRonghua")
 d.eat()
+d.eat2()
