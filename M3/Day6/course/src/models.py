@@ -8,7 +8,7 @@ from src import identifier
 
 class BaseModel:
     def save(self):
-        file_path = os.path.join(self.db_path,self.nid)
+        file_path = os.path.join(self.db_path,str(self.nid))
         pickle.dump(self,open(file_path,'wb'))
 
     @classmethod
