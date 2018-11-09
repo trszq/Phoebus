@@ -18,7 +18,7 @@ if __name__ == "__main__":
     '''
     role_main={
         '0':initialize_service.main,
-        # '1':admin_service.login,
+        '1':admin_service.login,
         # '2':teacher_service.login,
         # '3':student_service.login,
     }
