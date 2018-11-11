@@ -61,14 +61,18 @@ class School(BaseModel):
 
 class Teacher(BaseModel):
     db_path = settings.TEACHER_DB_DIR
-    def __init__(self,username,password,name,level):
+    def __init__(self,username,password,name,level,school_nid):
         self.nid=identifier.Nid(self.db_path)
         self.username=username
         self.password=password
         self.name=name
         self.level=level
+        self.school_nid=school_nid
         self.__account=0
         self.create_time=time.strftime('%Y-%m-%d %X')
+
+    def __str__(self):
+        return self.name
 
     @staticmethod
     def login():
@@ -103,6 +107,9 @@ class Student(BaseModel):
         self.score=Score(self.nid)
         self.create_time = time.strftime('%Y-%m-%d %X')
 
+    def __str__(self):
+        return self.name
+
     @staticmethod
     def login():
         try:
@@ -131,6 +138,7 @@ class Course(BaseModel):
         self.price=price
         self.period=period
         self.school_nid=school_nid
+        self.create_time = time.strftime('%Y-%m-%d %X')
 
     def __str__(self):
         return self.name
@@ -142,21 +150,23 @@ class Classes(BaseModel):
         self.name=name
         self.school_nid=school_nid
         self.course_to_teacher_list=course_to_teacher_list
+        self.create_time = time.strftime('%Y-%m-%d %X')
 
     def __str__(self):
         return self.name
 
 class Course_to_teacher(BaseModel):
     db_path=settings.COURSE_TO_TEACHER_DB_DIR
-    def __init__(self,course_nid,school_nid):
+    def __init__(self,course_nid,teacher_nid):
         self.nid=identifier.Nid(self.db_path)
         self.course_nid=course_nid
-        self.school_nid=school_nid
+        self.teacher_nid=teacher_nid
+        self.create_time = time.strftime('%Y-%m-%d %X')
 
     def get_course_to_teacher_list(self):
         ret=self.get_all_obj_list()
         if ret:
-            return [ret.course_nid.get_obj_by_uuid(),ret.classes_nid.get_obj_by_uuid()]
+            return [ret.course_nid.get_obj_by_uuid(),ret.teacher_nid.get_obj_by_uuid()]
         return [None,None]
 
 class Score:
