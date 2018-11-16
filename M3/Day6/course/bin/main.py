@@ -19,15 +19,10 @@ if __name__ == "__main__":
     role_main={
         '0':initialize_service.main,
         '1':admin_service.login,
-        # '2':teacher_service.login,
-        # '3':student_service.login,
+        '2':teacher_service.login,
+        '3':student_service.login
     }
-    # role_main={
-    #     '0':'你要初始化？',
-    #     '1':'你是管理员？',
-    #     '2':'你是老师？',
-    #     '3':'你是学生？',
-    # }
+
     while True:
         print(msg)
         choice=input('>>: ').strip()

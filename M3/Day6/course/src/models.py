@@ -84,14 +84,16 @@ class Teacher(BaseModel):
                     status=True
                     error=''
                     data='\033[32;1m登录成功\033[0m'
+                    teacher_obj = obj
                     break
             else:
                 raise Exception ('\033[33;1m用户名或密码错误\033[0m')
         except Exception as e:
-            status=false
+            status=False
             error=str(e)
             data=''
-        return {'status':status,'error':error,'data':data}
+            teacher_obj=None
+        return {'status':status,'error':error,'data':data,'teacher':teacher_obj}
 
 class Student(BaseModel):
     db_path = settings.STUDENT_DB_DIR
@@ -124,7 +126,7 @@ class Student(BaseModel):
             else:
                 raise Exception ('\033[33;1m用户名或密码错误\033[0m')
         except Exception as e:
-            status=false
+            status=False
             error=str(e)
             data=''
         return {'status':status,'error':error,'data':data}
@@ -161,6 +163,7 @@ class Course_to_teacher(BaseModel):
         self.nid=identifier.Nid(self.db_path)
         self.course_nid=course_nid
         self.teacher_nid=teacher_nid
+        self.school_nid=self.teacher_nid.get_obj_by_uuid().school_nid
         self.create_time = time.strftime('%Y-%m-%d %X')
 
     def get_course_to_teacher_list(self):
