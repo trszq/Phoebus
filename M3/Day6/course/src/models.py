@@ -39,7 +39,7 @@ class Admin(BaseModel):
                     data='\033[32;1m登录成功\033[0m'
                     break
             else:
-                raise Exception ('\033[43;1m用户名或密码错误\033[0m')
+                raise Exception ('\033[31;1m用户名或密码错误\033[0m')
         except Exception as e:
             status=False
             error=str(e)
@@ -106,7 +106,7 @@ class Student(BaseModel):
         self.mobile=mobile
         self.school_nid=school_nid
         self.classes_nid=classes_nid
-        self.score=Score(self.nid)
+        self.score=None
         self.create_time = time.strftime('%Y-%m-%d %X')
 
     def __str__(self):
@@ -122,6 +122,7 @@ class Student(BaseModel):
                     status=True
                     error=''
                     data='\033[32;1m登录成功\033[0m'
+                    student_obj=obj
                     break
             else:
                 raise Exception ('\033[33;1m用户名或密码错误\033[0m')
@@ -129,7 +130,8 @@ class Student(BaseModel):
             status=False
             error=str(e)
             data=''
-        return {'status':status,'error':error,'data':data}
+            student_obj=None
+        return {'status':status,'error':error,'data':data,'student':student_obj}
 
 
 class Course(BaseModel):
@@ -172,13 +174,13 @@ class Course_to_teacher(BaseModel):
             return [ret.course_nid.get_obj_by_uuid(),ret.teacher_nid.get_obj_by_uuid()]
         return [None,None]
 
-class Score:
-    def __init__(self,nid):
-        self.nid=nid
-        self.score_dict={}
-
-    def set(self,course_to_teacher_nid,number):
-        self.score_dict[course_to_teacher_nid]=number
-
-    def get(self,course_to_teacher_nid):
-        return self.score_dict.get(course_to_teacher_nid)
+# class Score:
+#     def __init__(self,nid):
+#         self.nid=nid
+#         self.score_dict={}
+#
+#     def set(self,course_to_teacher_nid,number):
+#         self.score_dict[course_to_teacher_nid]=number
+#
+#     def get(self,course_to_teacher_nid):
+#         return self.score_dict.get(course_to_teacher_nid)

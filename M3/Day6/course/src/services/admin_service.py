@@ -106,8 +106,9 @@ def create_student():
 
 def show_student():
     for obj in Student.get_all_obj_list():
-        print('\033[32;1m学生姓名[%s] 年龄[%s] 手机[%s] 学校[%s] 班级[%s] 创建日期[%s]\033[0m'\
-              %(obj.name,obj.age,obj.mobile,obj.school_nid.get_obj_by_uuid(),obj.classes_nid.get_obj_by_uuid(),obj.create_time))
+        print('\033[32;1m学生姓名[%s] 年龄[%s] 手机[%s] 学校[%s] 班级[%s] 任课老师[%s] 创建日期[%s]\033[0m'
+              % (obj.name,obj.age,obj.mobile,obj.school_nid.get_obj_by_uuid(),obj.classes_nid.get_obj_by_uuid(),
+                obj.classes_nid.get_obj_by_uuid().course_to_teacher_list.teacher_nid.get_obj_by_uuid(),obj.create_time))
 
 def create_course():
     try:
@@ -154,6 +155,10 @@ def create_classes():
         sid=int(input('请选择学校: '))
         school_obj=school_list[sid]
 
+        class_name_list=[(obj.name,obj.school_nid.uuid) for obj in Classes.get_all_obj_list()]
+        if (name,school_obj.nid.uuid) in class_name_list:
+            raise Exception('\033[31;1m班级[%s] (校区[%s])已经存在,不可重复创建\033[0m' %(name,school_obj))
+
         course_to_teacher_all_list=Course_to_teacher.get_all_obj_list()
         course_to_teacher_selection=[]
         k=0
@@ -169,14 +174,11 @@ def create_classes():
             ctid=int(input("请选择教师和课程："))
         course_to_teacher_list=course_to_teacher_selection[ctid]
 
-        class_name_list=[(obj.name,obj.school_nid.uuid) for obj in Classes.get_all_obj_list()]
-        if (name,school_obj.nid.uuid) in class_name_list:
-            raise Exception('\033[31;1m班级[%s] (校区[%s])已经存在,不可重复创建\033[0m' %(name,school_obj))
         obj=Classes(name,school_obj.nid,course_to_teacher_list)
         obj.save()
         status=True
         error=''
-        data='\033[33;1班级[%s] 校区[%s] 任课老师[%s] 课程[%s]创建成功\033[0m' \
+        data='\033[33;1m班级[%s] 校区[%s] 任课老师[%s] 课程[%s]创建成功\033[0m' \
              %(obj.name,obj.school_nid.get_obj_by_uuid(),obj.course_to_teacher_list.teacher_nid.get_obj_by_uuid(),
                obj.course_to_teacher_list.course_nid.get_obj_by_uuid())
     except Exception as e:
@@ -201,12 +203,18 @@ def create_course_to_teacher():
         course_obj=course_list[cid]
 
         teacher_list=Teacher.get_all_obj_list()
-        for k,obj in enumerate(teacher_list):
-            print(k,obj.name,'[%s] [%s]校区'%(obj.school_nid.get_obj_by_uuid().name,obj.school_nid.get_obj_by_uuid().addr))
-        tid=int(input("请选择教师："))
-        teacher_obj=teacher_list[tid]
-        if teacher_obj.school_nid.uuid != course_obj.school_nid.uuid:
-            raise Exception('\033[31;1m该课程与教师不在同一学校\033[0m')
+        teacher_list_selection=[]
+        k=0
+        for obj in teacher_list:
+            if obj.school_nid.uuid == course_obj.school_nid.uuid:
+                print(k,obj.name,'[%s] [%s]校区'%(obj.school_nid.get_obj_by_uuid().name,obj.school_nid.get_obj_by_uuid().addr))
+                teacher_list_selection.append(obj)
+                k+=1
+        if k == 0:
+            raise Exception('\033[31;1m该学校还未有合适的教师\033[0m')
+        else:
+            tid=int(input("请选择教师："))
+        teacher_obj=teacher_list_selection[tid]
 
         course_to_teacher_list = [(obj.course_nid.uuid,obj.teacher_nid.uuid) for obj in Course_to_teacher.get_all_obj_list()]
         if (course_obj.nid.uuid,teacher_obj.nid.uuid) in course_to_teacher_list:
@@ -268,6 +276,8 @@ def main():
         if choice not in choice_dict:
             print("请输入正确选项")
             continue
+        elif choice == '12':
+            break
         ret=choice_dict[choice]()    # 执行动作
         if ret:
             if ret['status']:

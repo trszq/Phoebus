@@ -20,16 +20,15 @@ if __name__ == "__main__":
         '0':initialize_service.main,
         '1':admin_service.login,
         '2':teacher_service.login,
-        '3':student_service.login
+        '3':student_service.login,
+        '4':exit
     }
 
     while True:
         print(msg)
         choice=input('>>: ').strip()
-        if choice == '4':
-            exit()
-        elif choice not in role_main:
-            input("请输入正确选项")
+        if choice not in role_main:
+            print("请输入正确选项")
             continue
         role_main[choice]()
 
