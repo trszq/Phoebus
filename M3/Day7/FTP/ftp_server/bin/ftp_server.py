@@ -11,5 +11,6 @@ from core.ftp_server import FTPHandler
 from conf import settings
 
 if __name__ == "__main__":
+    print("----FTP server-----")
     server = socketserver.ThreadingTCPServer((settings.HOST, settings.PORT), FTPHandler)
     server.serve_forever()
